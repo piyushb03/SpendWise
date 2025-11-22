@@ -1,5 +1,4 @@
 const API_URL = "https://piyushb03.pythonanywhere.com/api";
-;
 let currentUser = JSON.parse(localStorage.getItem('user')) || null;
 let allTransactions = [];
 let expenseChart = null;
